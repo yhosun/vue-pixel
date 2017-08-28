@@ -4,7 +4,7 @@ import NCanvas from 'canvas';
 new Vue({
     components: {NCanvas},
     el: '#main-canvas',
-    template: '<n-canvas :pixel-data="pixelData" :colors="colors" background="rgb(229, 230, 232)"></n-canvas>',
+    template: '<n-canvas :pixel-data="pixelData" :colors="colors" ></n-canvas>',
     data() {
         return {
             pixelData: null,
@@ -39,12 +39,12 @@ new Vue({
             [_, B, B, B, B, _, _, _, _, B, B, B, B, _]];
 
         this.colors = {
-            [C]: "255, 0, 0",
-            [B]: "100, 50, 0",
-            [S]: "255, 200, 150",
-            [O]: "0, 0, 255",
-            [Y]: "255, 255, 0",
-            [W]: "255, 255, 255",
-            [_]: "229, 230, 232"};
+            [C]: "229, 230, 232",
+            [B]: "229, 230, 232",
+            [S]: "229, 230, 232",
+            [O]: "229, 230, 232",
+            [Y]: "229, 230, 232",
+            [W]: "229, 230, 232",
+            [_]: "255, 255, 255"};
     }
 });

@@ -24,7 +24,8 @@
                 return {
                     'background-color': `rgb(${this.color})`,
                     'width': this.size,
-                    'height': this.size
+                    'height': this.size,
+                    'border': 'solid #E5E6E8 1px'
                 }
             }
         },
