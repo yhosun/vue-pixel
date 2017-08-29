@@ -8,7 +8,7 @@
     export default {
         props: {
             color: {
-                type: String,
+                type: String, // RGB color - i.e. "255, 255, 255"
                 required: true,
             },
             size: {

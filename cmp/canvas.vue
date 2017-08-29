@@ -17,22 +17,10 @@
             NPixel
         },
         props: {
-            pixelData: {
-                type: Array,
-                required: true
-            },
-            colors: {
-                type: Object,
-                required: true
-            },
-            pixelSize: {
-                type: String,
-                default: '20px'
-            },
-            background: {
-                type: String,
-                default: 'white'
-            }
+            pixelData: {type: Array, required: true},
+            colors: {type: Object, required: true},
+            pixelSize: {type: String, default: '20px'},
+            background: {type: String, default: 'white'}
         },
         methods: {
             onPixelClick(color) {
